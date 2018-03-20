@@ -53,10 +53,9 @@
 // "("               =>  false
 // "(())((()())())"  =>  true
 
-
 // function validParentheses(str){
   
-//     if (!str || typeof str !== "string") {
+//     if (!str ||    ) {
 //        return false;
 //     }
 //     var strArr = str.split("")
@@ -79,3 +78,17 @@
 //    else return true
     
 //   }
+
+// function MagicFunction(...args) {
+      
+//     function toBeReturned(...args){
+//         let sum = 0
+//       do {
+//     for (var i = 0; i < arguments.length; i++){
+//       sum += parseInt(arguments[i]); }
+//     } while ( arguments.length === true)
+//      return sum
+//       }
+//       return toBeReturned
+//     }
+//     MagicFunction(2,3,4)(4,5,6)
